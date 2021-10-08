@@ -1,0 +1,223 @@
+aside {
+  background: #6ee66ea2;
+  padding: 20px;
+  width: 200px;
+  float: right;
+  color: #000000;
+ }
+
+body {
+  background: #24a8e6;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  }
+
+h3{
+  width: fit-content;
+  margin: 0px 0px 0px 0px;
+  font-family: "Arial", sans-serif;
+  text-align: justify;
+}
+  
+.site-header h1 {
+  width: fit-content;
+  margin: 100px 30px 10px 500px;
+  font-family: "Arial", sans-serif;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  background-color: rgba(0, 174, 255, 0.164);
+}
+
+
+.site-header {
+    min-width: 550px;
+    height: 400px;
+    padding-top: 30px;
+    background-image: url("images/football1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+  }
+  
+    
+  .composition {
+    width: 510px;
+    margin: 0 auto 30px;  
+    padding: 0 20px;
+  }
+
+  .composition-list{
+    padding: 0px;
+    margin: 0 100 0 100px;
+    /*border: 20px solid #3e5bdf;*/
+    background: #afc3f8d3;
+    list-style: none;  
+  }
+
+ .comand {
+    width: 0 0 0 0px;
+    margin: auto;
+    padding: 0 20px;
+    background-color: #9babf3a4;
+  }
+
+  .goalkeeper {
+    display: flex;
+    padding: 14px 0 0;
+    margin: 0  10 0 0px;
+    list-style: none;
+  }
+  
+  .player-card {
+    position: relative;
+    width: 150px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 210px 40px 0;
+    font-family: "Impact, fantasy", serif;
+    background-color: #ffffff;
+    box-shadow: 0 8px 6px #02014d;
+    
+  }
+  
+  .player-card img {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+  }
+  
+  .player-card h3 {
+    margin: 0 0 2px 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  
+  .player-card p {
+    margin: 0 0 8px 0;
+    padding: 0;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 16px;
+  }
+
+  .defender {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    padding: 14px 0 0;
+    margin: 0  10 0 0px;
+    list-style: none;
+  }
+  
+  .defender-card {
+    position: relative;
+    width: 140px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 210px 40px 0;
+    /*font-family: "Georgia", "Times", serif;*/
+    background-color: #ffffff;
+    box-shadow: 0 8px 6px #02014d;
+    
+  }
+
+  .defender-card img {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+  }
+  
+  .defender-card h3 {
+    margin: 0 0 2px 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  
+  .defender-card p {
+    margin: 0 0 8px 0;
+    padding: 0;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 16px;
+  }
+
+  .attack {
+    display: flex;
+    padding: 14px 0 0;
+    margin: 0  10 0 0px;
+    list-style: none;
+  }
+  
+  .attack-card {
+    position: relative;
+    width: 132px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 210px 40px 0;
+    font-family: "Georgia", "Times", serif;
+    background-color: #ffffff;
+    box-shadow: 0 8px 6px #02014d;
+    
+  }
+  
+  .attack-card img {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+  }
+  
+  .attack-card h3 {
+    margin: 0 0 2px 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  
+  .attack-card p {
+    margin: 0 0 8px 0;
+    padding: 0;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 16px;
+  }
+
+  .red{
+    padding: 0px;
+    margin: 0 100 0 100px;
+    border: 20px solid #4161ee;
+    background: #6a88dbe1;
+    list-style: none;  
+  }
+  
+  
+  .site-footer {
+    min-width: 550px;
+    background-color: #29166e;
+    color: #ffffff;
+  }
+  
+  .site-footer .container {
+    text-align: center;
+  }
+  
+  .site-footer p {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 20px;
+  }
+  
+
+  
