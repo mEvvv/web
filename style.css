@@ -16,6 +16,11 @@ body {
   color: #000000;
   }
 
+.cardButton {
+  position: relative;
+  margin: 65px 0px 0 5px;
+}
+
 h3{
   width: fit-content;
   margin: 0px 0px 0px 0px;
@@ -77,6 +82,7 @@ h3{
   .player-card {
     position: relative;
     width: 150px;
+    height: 150px;
     margin-bottom: 30px;
     margin-left: 30px;
     margin-top: 30px;
@@ -95,7 +101,7 @@ h3{
   
   .player-card h3 {
     margin: 0 0 2px 0;
-    padding: 0;
+    padding: 0 30px 0 -20px;
     font-size: 15px;
     line-height: 18px;
     font-weight: 400;
@@ -109,48 +115,34 @@ h3{
     line-height: 16px;
   }
 
+  .yellow_card img{
+    width: 35px; 
+    height: 50px; 
+  }
+
+  .card_1 {
+    position: relative;
+    margin: 25px 0px 5px -55px;
+  }
+
+  .card_2 {
+    position: relative;
+    margin: 25px 0px 5px -0px;;
+  }
+
+  .card_3 {
+    position: relative;
+    margin: 25px 0px 5px 55px;;
+  }
+
   .defender {
     display: flex;
-    /*flex-wrap: wrap;*/
     padding: 14px 0 0;
     margin: 0  10 0 0px;
     list-style: none;
   }
-  
-  .defender-card {
-    position: relative;
-    width: 140px;
-    margin-bottom: 30px;
-    margin-left: 30px;
-    margin-top: 30px;
-    padding: 210px 40px 0;
-    /*font-family: "Georgia", "Times", serif;*/
-    background-color: #ffffff;
-    box-shadow: 0 8px 6px #02014d;
-    
-  }
 
-  .defender-card img {
-    position: absolute;
-    top: 10px;
-    left: 30px;
-  }
   
-  .defender-card h3 {
-    margin: 0 0 2px 0;
-    padding: 0;
-    font-size: 15px;
-    line-height: 18px;
-    font-weight: 400;
-  }
-  
-  .defender-card p {
-    margin: 0 0 8px 0;
-    padding: 0;
-    font-size: 13px;
-    font-style: italic;
-    line-height: 16px;
-  }
 
   .attack {
     display: flex;
@@ -159,40 +151,8 @@ h3{
     list-style: none;
   }
   
-  .attack-card {
-    position: relative;
-    width: 132px;
-    margin-bottom: 30px;
-    margin-left: 30px;
-    margin-top: 30px;
-    padding: 210px 40px 0;
-    font-family: "Georgia", "Times", serif;
-    background-color: #ffffff;
-    box-shadow: 0 8px 6px #02014d;
-    
-  }
   
-  .attack-card img {
-    position: absolute;
-    top: 10px;
-    left: 30px;
-  }
   
-  .attack-card h3 {
-    margin: 0 0 2px 0;
-    padding: 0;
-    font-size: 15px;
-    line-height: 18px;
-    font-weight: 400;
-  }
-  
-  .attack-card p {
-    margin: 0 0 8px 0;
-    padding: 0;
-    font-size: 13px;
-    font-style: italic;
-    line-height: 16px;
-  }
 
   .red{
     padding: 0px;
